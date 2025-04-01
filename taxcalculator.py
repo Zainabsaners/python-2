@@ -17,6 +17,9 @@ elif salary>20000 and salary<=50000:
 elif salary>50000:
     tax=0.6*salary
     print(f"Your tax is {tax}")
+
+netincome=salary-tax
+print(f"Your net income is {netincome}")   
  
 
 
