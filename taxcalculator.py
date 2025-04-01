@@ -27,6 +27,13 @@ if children>3:
 else:
     netincome=netincome
 print(f"Your net income is {netincome}")
+print(f"Hey {Name},your salary is{salary}, your tax is {tax} and your net income is {netincome}  ")
+print("thank you for using the tax calculator")
+print("Have a nice day!")
+print("Please come back again")
+print("Happy coding with kiongozi❤")
+
+print("welcome back 😘")
 
 
 
