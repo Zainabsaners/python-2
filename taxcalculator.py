@@ -23,10 +23,20 @@ elif salary>50000:
 netincome=salary-tax
 print(f"Your net income is {netincome}")   
 if children>3:
-    netincome=netincome-10000*children
+    neti=netincome-10000*children
 else:
-    netincome=netincome
-print(f"Your net income is {netincome}")
+    neti=netincome
+if neti<0:
+    print("Invalid net income")
+else:
+    neti=neti
+    
+
+
+
+
+
+
 print(f"Hey {Name},your salary is{salary}, your tax is {tax} and your net income is {netincome}  ")
 print("thank you for using the tax calculator")
 print("Have a nice day!")
