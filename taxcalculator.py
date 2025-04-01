@@ -1,4 +1,6 @@
 Name=input("Enter your name: ")
+children=input("Enter the number of children: ")
+children=int (children)
 salary=input("Enter your salary: ")
 salary=int (salary)
 print(f"Your name is {Name} and your salary is {salary}")
@@ -20,7 +22,13 @@ elif salary>50000:
 
 netincome=salary-tax
 print(f"Your net income is {netincome}")   
- 
+if children>3:
+    netincome=netincome-10000*children
+else:
+    netincome=netincome
+print(f"Your net income is {netincome}")
+
+
 
 
 
